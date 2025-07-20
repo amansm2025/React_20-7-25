@@ -1,5 +1,5 @@
 import React from "react";
-
+import PropTypes from "prop-types";
 export default function Navbar(props) {
     return (
 
@@ -30,4 +30,6 @@ export default function Navbar(props) {
 //this is for checking commit changes
     );
 }
-    
+    Navbar.propTypes={
+    title: PropTypes.string.isRequired
+    }
