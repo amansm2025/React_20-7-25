@@ -27,6 +27,7 @@ export default function Navbar(props) {
     </div>
   </div>
 </nav>
+//this is for checking commit changes
     );
 }
     
